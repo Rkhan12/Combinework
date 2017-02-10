@@ -7,7 +7,8 @@ import android.view.MenuItem;
 
 
 public class MainActivity extends Activity {
-public String push;
+public String push,pull;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
