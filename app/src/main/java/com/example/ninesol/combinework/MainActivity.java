@@ -7,13 +7,13 @@ import android.view.MenuItem;
 
 
 public class MainActivity extends Activity {
-public String push,pull;
+    public String push;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        push="some value";
+        push = "some value";
         //pushing from my side
     }
 
