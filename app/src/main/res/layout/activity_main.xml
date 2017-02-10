@@ -13,19 +13,20 @@
         android:text="@string/hello_world" />
 
     <Button
-        android:id="@+id/b_raheel"
+        android:id="@+id/bFarhan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Raheel" />
+        android:text="Farhan" />
 
-    <ImageView
-        android:id="@+id/iv_ninesol"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/b_raheel"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_ninesol" />
+        android:layout_alignStart="@+id/bFarhan"
+        android:layout_below="@+id/bFarhan"
+        android:layout_marginTop="62dp"
+        android:text="Raheel" />
 
 </RelativeLayout>
